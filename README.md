@@ -18,6 +18,7 @@ This repository therefore provides a static snapshot for archival and reference 
 ## View Online
 
 - Raw archive of `appList.json`:
+
 	https://raw.githubusercontent.com/delabarra/ISteamApps-GetAppList-v2-Archive/refs/heads/main/appList.json
 
 ## Contents
