@@ -15,6 +15,11 @@ Method 'GetAppList' not found in interface 'ISteamApps'
 
 This repository therefore provides a static snapshot for archival and reference purposes only.
 
+## View Online
+
+- Raw archive of `appList.json`:
+	https://raw.githubusercontent.com/delabarra/ISteamApps-GetAppList-v2-Archive/refs/heads/main/appList.json
+
 ## Contents
 
 - File: `appList.json`
@@ -33,15 +38,9 @@ This repository therefore provides a static snapshot for archival and reference 
 
 Note: This snapshot is a flat array of app objects (different from the legacy API shape that wrapped data under `applist.apps`).
 
-## View Online
-
-- Raw archive of `appList.json`:
-	https://raw.githubusercontent.com/delabarra/ISteamApps-GetAppList-v2-Archive/refs/heads/main/appList.json
-
 ## Notes and Attribution
 
-- Data originally sourced from Valve's Steam Web API (`ISteamApps/GetAppList v2`).
-- Valve, Steam, and all related marks are trademarks of Valve Corporation. This repository is unaffiliated with Valve.
+- Data originally sourced from Valve's Steam Web API (`/ISteamApps/GetAppList/v2/`).
 - This dataset is provided for archival, research, and educational purposes only. Respect Valve's terms and applicable laws.
 
 If the official API becomes available again, consider refreshing the dataset directly from the source to ensure the most current and complete app list.
