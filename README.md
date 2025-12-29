@@ -1,4 +1,4 @@
-# Steam App List V2 — Snapshot
+# ISteamApps-GetAppList-v2-Archive
 
 This repository preserves a static snapshot of the Steam application catalog in [appList.json](appList.json).
 
