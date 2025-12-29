@@ -6,7 +6,14 @@ Originally, this dataset was available from Valve's Web API endpoint:
 
 https://api.steampowered.com/ISteamApps/GetAppList/v2/
 
-As of December 29, 2025, that endpoint appears to be unavailable. This repo exists for archival and reference purposes only.
+As of December 29, 2025, requests to this endpoint fail with:
+
+```
+Not Found
+Method 'GetAppList' not found in interface 'ISteamApps'
+```
+
+This repository therefore provides a static snapshot for archival and reference purposes only.
 
 ## Contents
 
@@ -23,6 +30,8 @@ As of December 29, 2025, that endpoint appears to be unavailable. This repo exis
 		}
 	}
 	```
+
+Note: This snapshot is a flat array of app objects (different from the legacy API shape that wrapped data under `applist.apps`).
 
 ## Notes and Attribution
 
