@@ -33,6 +33,11 @@ This repository therefore provides a static snapshot for archival and reference 
 
 Note: This snapshot is a flat array of app objects (different from the legacy API shape that wrapped data under `applist.apps`).
 
+## View Online
+
+- Raw archive of `appList.json`:
+	https://raw.githubusercontent.com/delabarra/ISteamApps-GetAppList-v2-Archive/refs/heads/main/appList.json
+
 ## Notes and Attribution
 
 - Data originally sourced from Valve's Steam Web API (`ISteamApps/GetAppList v2`).
