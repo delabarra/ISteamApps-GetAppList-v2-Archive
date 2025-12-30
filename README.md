@@ -27,14 +27,10 @@ This repository therefore provides a static snapshot for archival and reference 
 - Format (typical structure):
 
 	```json
-	{
-		"applist": {
-			"apps": [
-				{ "appid": 10, "name": "Counter-Strike" },
-				{ "appid": 20, "name": "Team Fortress Classic" }
-			]
-		}
-	}
+	[
+		{ "appid": 10, "name": "Counter-Strike" },
+		{ "appid": 20, "name": "Team Fortress Classic" }
+	]
 	```
 
 Note: This snapshot is a flat array of app objects (different from the legacy API shape that wrapped data under `applist.apps`).
