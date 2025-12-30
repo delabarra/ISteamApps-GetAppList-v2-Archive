@@ -24,7 +24,7 @@ This repository therefore provides a static snapshot for archival and reference 
 ## Contents
 
 - File: `appList.json`
-- Format (typical structure):
+- Format:
 
 	```json
 	[
